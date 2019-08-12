@@ -9,7 +9,7 @@
         "host" : ["raspberrypi"],
         "ref"  : "origin/master",
         "repo" : "git@github.com:stixx200/smtp-proxy.git",
-        "path" : "/var/smpt-proxy",
+        "path" : "/var/smtp-proxy",
         "post-deploy" : "npm install"
        }
     }
