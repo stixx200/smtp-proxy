@@ -1,0 +1,31 @@
+{
+  "name": "smtp-proxy",
+  "version": "1.0.0",
+  "description": "Simple proxy to encrypt incoming emails and forward them to recipient",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stixx200/smtp-proxy.git"
+  },
+  "keywords": [
+    "smtp",
+    "email",
+    "proxy",
+    "encryption",
+    "nodemailer"
+  ],
+  "author": "stixx200",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stixx200/smtp-proxy/issues"
+  },
+  "homepage": "https://github.com/stixx200/smtp-proxy#readme",
+  "dependencies": {
+    "mailparser": "^2.7.1",
+    "nodemailer": "^6.3.0",
+    "smtp-server": "^3.5.0"
+  }
+}

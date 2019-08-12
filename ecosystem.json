@@ -1,0 +1,16 @@
+{
+    "apps" : [{
+       "name" : "SMPT-PROXY",
+       "script" : "app.js"
+    }],
+    "deploy" : {
+      "production" : {
+        "user" : "pi",
+        "host" : ["raspberrypi"],
+        "ref"  : "origin/master",
+        "repo" : "git@github.com:stixx200/smtp-proxy.git",
+        "path" : "/var/smpt-proxy",
+        "post-deploy" : "npm install"
+       }
+    }
+ }
